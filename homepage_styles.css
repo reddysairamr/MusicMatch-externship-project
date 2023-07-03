@@ -1,0 +1,33 @@
+body {
+    background-color: #1D1F25;
+}
+
+.container-fluid {
+    padding : 2.5% ;
+    width : 70% ;
+    height : 90% ;
+}
+
+.profile-title-image-div {
+    padding : 3% 5% ;
+}
+
+.profile-title-image {
+    width : 100% ;
+    height : auto ;
+}
+
+.username {
+    color : white ;
+}
+
+.location {
+    color : white ;
+}
+h4, h5, h6 {
+    color : white ;
+}
+
+.details {
+    margin : 2% ;
+}

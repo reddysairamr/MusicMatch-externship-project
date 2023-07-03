@@ -1,0 +1,154 @@
+body {
+    margin : 0; 
+}
+
+/* title section styling  */
+#title {
+    background-color : #1D1F25 ;
+}
+
+.container-fluid {
+    padding : 3% 15% ;
+}
+
+.title-container {
+    padding-bottom: 0;
+}
+
+.title-text {
+    font-family: 'Geologica', sans-serif;
+    font-size : 3rem ;
+    line-height: 1.5;
+    letter-spacing: -2px;
+    color : white ;
+}
+
+/* navigation bar styling */
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 2 rem;
+}
+
+.nav-item {
+    padding : 0 18px ;
+}
+
+/* download buttons styling */
+.download-button {
+    margin: 5% 3% 5% 0 ;
+}
+
+/* title image styling */
+.title-image {
+    width : 100% ;
+    position: relative;
+}
+
+/* Feature section styling */
+#features {
+    padding-top: 8%;
+    background-color: white;
+    position: relative;
+    z-index : 1 ;
+}
+.feature {
+    text-align: center ;
+    margin-bottom: 30px;
+}
+
+.feature-title {
+    font-family: 'Geologica', sans-serif;
+}
+
+.feature-text {
+    font-family: 'Montserrat', sans-serif;
+    color: #8f8f8f;
+    padding: 0 12%;
+}
+
+.feature-image {
+    width : 35% ;
+    margin-bottom: 1rem;
+}
+
+
+/* testimonial section styling  */
+#testimonials {
+    background-color : #1D1F25 ;
+}
+.testimonial-image {
+    width : 35% ;
+}
+.testimonial-box {
+    text-align: center;
+}
+
+.testimonial-text {
+    padding : 3% 15% ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    color : white ;
+}
+em {
+    margin-left : 20px ;
+    font-weight: bold;
+    color : white ;
+}
+
+#testimonials button {
+    color : white ;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    filter : invert(100%) ;
+}
+
+
+/* pricing section! */
+
+#pricing {
+    padding: 8% ;
+    background-color: white;
+
+}
+
+.pricing-container {
+    display : flex ;
+    gap : 4rem;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.pricing-plan {
+    text-align: center;
+    border : 1px solid ;
+    border-radius: 8px;
+    padding : 5% ;
+}
+
+.pricing-plan-name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+/* Footer Section Styling */
+#footer {
+    background-color: #1D1F25 ;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    padding-top: 25px;
+    padding-bottom: 25px ;
+    margin : 0;
+}
+
+#footer p {
+    color : white ;
+}
+
+.social-media-icon {
+    color: black;
+    padding: 0 8px ;
+}

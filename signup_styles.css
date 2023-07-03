@@ -1,0 +1,74 @@
+body {
+    background-color: hsl(225, 12%, 13%) ;
+}
+
+.container-fluid {
+    padding : 2.5% ;
+    width : 70% ;
+    height : 90% ;
+}
+
+.title {
+    text-align: center;
+    color : white ;
+}
+
+.signup-title-image-div {
+    padding : 3% 5% ;
+    background-color: white ;
+}
+
+.signup-title-image {
+    width : 100% ;
+    height: auto ;
+    border-radius: 15px;
+}
+
+.signup-box {
+    background-color: white ;
+    padding: 3% 5% ;
+}
+
+.form-field {
+    margin : 5px ;
+}
+
+/* body {
+    background-color: black; 
+} */
+
+
+/* outermost container styling */
+.genre-section {
+    padding : 0 15% ;
+}
+/* genre-title styling */
+
+.genre-title {
+    color : white;
+    font-weight: bolder;
+}
+.genre-title-section p {
+    color : white ;
+    font-weight: normal;
+}
+/* all genre (card) styles */
+.card {
+    background-color: #1D1F25;
+    margin : 1% ;
+    padding: 0;
+}
+
+.card-image {
+    width : 100% ;
+}
+
+.card-title {
+    color : white ;
+    font-size: 18px ;
+    font-weight: bolder;
+}
+
+.choose {
+    font-weight: normal;
+}

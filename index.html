@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicMath</title>
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/3fdf10136c.js" crossorigin="anonymous"></script>
+    
+    <!-- Stylsheets and Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Title Section of the landing page -->
+    <section id="title">
+        <div class = " title-container container-fluid">
+            <!-- nav bar -->
+            <nav class = "navbar navbar-expand-lg navbar-dark"> 
+
+                <a class = "navbar-brand h1" href = "./index.html"><strong>MusicMatch</strong></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class = "collapse navbar-collapse" id="navbarSupportedContent">
+        
+                    <ul class = "navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class = "nav-link" href ="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class = "nav-link" href ="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class = "nav-link" href ="#testimonials">Testimonials</a>
+                        </li>
+                    </ul>
+        
+                </div>
+            </nav>
+
+            <div class="row">
+
+                <div class = "col-lg-6">
+                    <h1 class="title-text">Match based on your Music Taste!</h1>
+                    <button onclick="window.location.href='./login.html';" type="button" class="btn btn-dark download-button">Log in</button>
+                    <button onclick="window.location.href='./signup.html';" type="button" class="btn btn-light download-button"> Sign Up</button>
+                </div>
+
+                <div class="col-lg-6 title-image-div">
+                    <img class="title-image" src="./images/title-image-1-01.jpeg" alt="title-image">
+                </div>
+
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Features section of the landing page -->
+    <section id = "features">
+        <div class = "container-fluid">
+
+            <div class="row">
+                <div class="col-md-4 feature">
+                    <img class="feature-image" src="./images/love-song.png" alt="music-love-image">
+                    <h3 class="feature-title">Music is Love</h3>
+                    <p class="feature-text">Find people with the same music taste as you!</p>
+                </div>
+
+                <div class="col-md-4 feature">
+                    <img class="feature-image" src="./images/dj.png" alt="music-genre-image">
+                    <h3 class="feature-title">Find Matches Based on Genre</h3>
+                    <p class="feature-text">Be it pop, jazz, rock, acoustic - find your match based on your favourite music genres!</p>
+                </div>
+
+                <div class="col-md-4 feature">
+                    <img class="feature-image" src="./images/playlist.png" alt="music-playlist-image">
+                    <h3 class="feature-title">Share Your Playlists</h3>
+                    <p class="feature-text">Share your emotions through your own playlists!</p>   
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Testimonials section of the landing page -->
+    <section id = "testimonials">
+
+        <div class="container-fluid">
+
+            <div class="carousel slide carousel-dark" id = "carouselExampleControls">
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item testimonial-box">
+                        <img class="testimonial-image" src="./images/testimonial-image-1.jpeg" alt="testimonial-image">
+                        <em>Lisa, Paris</em>
+                        <p class="testimonial-text">I connected with my perfect musical match. We bonded over our shared love for indie rock and spent hours discussing our favorite bands and attending concerts together.</p>
+                    </div>
+
+                    <div class="carousel-item testimonial-box">
+                        <img class="testimonial-image" src="./images/testimonial-image-2.jpeg" alt="testimonial-image">
+                        <em>Sara, LA</em>
+                        <p class="testimonial-text">This matchmaking website has been a godsend for me. I've had the opportunity to meet individuals from various backgrounds and with diverse music preferences, all united by their love for exploring new sounds.</p>
+                    </div>
+
+                    <div class="carousel-item active testimonial-box">
+                        <img class="testimonial-image" src="./images/testimonial-image-3.jpeg" alt="testimonial-image">
+                        <em>James, New York</em>
+                        <p class="testimonial-text">This website not only helped me find a romantic partner but also a musical soulmate. I'm forever grateful for the connections I made through this platform.</p>
+                    </div>
+
+                </div>
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing section of the landing page -->
+    <section id = "pricing">
+        <div class="pricing-container">
+
+            <div class="pricing-plan">
+                <div class="pricing-plan-name"><h3>Basic</h3></div>
+                <h2>Free</h2>
+                <p>5 Matches Per Day</p>
+                <p>10 Messages Per Day</p>
+                <p>Unlimited App Usage</p>
+                <button class="btn btn-dark sign-up-button" type="button">Sign Up</button>
+            </div>
+
+            <div class="pricing-plan">
+                <div class="pricing-plan-name"><h3>Music Butterfly</h3></div>
+                <h2>$49 / mo</h2>
+                <p>Unlimited Matches</p>
+                <p>Unlimited Messages</p>
+                <p>Unlimited App Usage</p>
+                <button class="btn btn-dark sign-up-button" type="button">Sign Up</button>
+
+            </div>
+
+            <div class="pricing-plan">
+                <div class="pricing-plan-name"><h3>Premium</h3></div>
+                <h2>$99 / mo</h2>
+                <p>Pirority Listing</p>
+                <p>Unlimited Matches</p>
+                <p>Unlimited Messages</p>
+                <p>Unlimited App Usage</p>
+                <button class="btn btn-dark sign-up-button" type="button">Sign Up</button>
+
+            </div>
+        </div>
+    </section>
+
+    <footer id ="footer">
+        <p>© Copyright MusicMatch</p>
+    </footer>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>   
+    
+</body>
+
+</html>

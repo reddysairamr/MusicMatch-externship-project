@@ -1,0 +1,42 @@
+body {
+    background-color: #1D1F25 ;
+}
+
+.login-container {
+    padding : 10% ;
+    width : 70% ;
+    height : 90% ;
+}
+
+.navbar-container {
+    padding : 0 ;
+}
+
+nav > a {
+    padding-left : 5px ;
+}
+
+.title {
+    text-align: center;
+    color : white ;
+}
+
+.login-title-image-div {
+    padding : 3% 8% ;
+    background-color: white ;
+}
+
+.login-title-image {
+    width : 100% ;
+    height: auto ;
+    border-radius: 15px;
+}
+
+.login-box {
+    background-color: white ;
+    padding: 3% 5% ;
+}
+
+.form-field {
+    margin : 10px ;
+}
