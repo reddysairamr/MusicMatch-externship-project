@@ -1,6 +1,6 @@
 # MusicMatch-externship-project
 
-**Project team details: **
+Project team details: 
 team number - 568 
 members: 
 Alan Shaji 20BRS1024
