@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "647316dc86c29cd50820d02a"
+  },
+  "title": "Pride and Prejudice",
+  "author": "Jane Austen",
+  "year": 1813,
+  "genre": "Novel"
+},
+{
+  "_id": {
+    "$oid": "647316dc86c29cd50820d02b"
+  },
+  "title": "1984",
+  "author": "George Orwell",
+  "year": 1949,
+  "genre": "Dystopian Fiction"
+},
+{
+  "_id": {
+    "$oid": "647316dc86c29cd50820d02c"
+  },
+  "title": "The Great Gatsby",
+  "author": "F. Scott Fitzgerald",
+  "year": 1925,
+  "genre": "Novel"
+},
+{
+  "_id": {
+    "$oid": "647316dc86c29cd50820d02d"
+  },
+  "title": "To the Lighthouse",
+  "author": "Virginia Woolf",
+  "year": 1927,
+  "genre": "Modernist Novel"
+}]
